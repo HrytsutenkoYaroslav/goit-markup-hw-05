@@ -653,6 +653,9 @@ ul {
   background: rgba(33, 150, 243, 0.9);
   height: 294px;
   width: 370px;
+  transition-property: all;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .img-hover:hover .studio-text {
   display: block;
